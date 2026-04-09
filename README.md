@@ -1,16 +1,29 @@
+<div align="center">
+
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-green)
 ![Method-First](https://img.shields.io/badge/Style-Method--First-8b6a2b)
 
 # 米塞斯视角 Skill
 
+<img src="./assets/mises-portrait.jpg" width="300" alt="Ludwig von Mises portrait">
+
+<p><em>Ludwig von Mises. Photo source: Wikimedia Commons, CC BY-SA 3.0.</em></p>
+
 ![米塞斯视角 Skill Banner](./assets/banner.svg)
 
-<p align="center">
-  <img src="./assets/mises-portrait.jpg" width="340" alt="Ludwig von Mises portrait">
+<p><strong>方法优先，不做夸张角色扮演。</strong><br>
+从人类行动、价格与经济计算出发，分析制度、干预与资本配置。</p>
+
+<p>
+  <a href="#特点">特点</a> •
+  <a href="#快速开始">快速开始</a> •
+  <a href="#安装">安装</a> •
+  <a href="#工作方式">工作方式</a> •
+  <a href="#适用范围">适用范围</a>
 </p>
 
-<p align="center"><em>Ludwig von Mises. Photo source: Wikimedia Commons, CC BY-SA 3.0.</em></p>
+</div>
 
 一个以路德维希·冯·米塞斯的方法论为核心的中文分析型 skill。
 
@@ -32,6 +45,10 @@
 
 这不是现实人物代言，不提供伪造引文，也不把历史思想家的框架当成对当代事实的自动替代。
 
+## 一句话理解
+
+这不是一个“市场派口号生成器”，而是一个把米塞斯的分析顺序、概念区分和制度判断打包成可重复调用框架的 skill。
+
 ## 为什么做这个 Skill
 
 很多“思想家视角”类 prompt 最后都会滑向两种退化：
@@ -48,6 +65,24 @@
 - 强调价格、利润亏损、企业家发现和经济计算
 - 能分析政策，也能分析方法论分歧
 - 自带回归测试题，方便检查输出是否退化
+
+## 代表作
+
+如果你想把这个 skill 背后的原著脉络补全，最值得先读的是下面这些书。这里优先放的是可公开引用的官方/公开页面，方便直接继续找 PDF、EPUB 或 HTML 版本。
+
+- [《人的行动》 Human Action](https://mises.org/library/book/human-action)
+- [《社会主义：一种经济学与社会学的分析》 Socialism: An Economic and Sociological Analysis](https://mises.org/library/book/socialism-economic-and-sociological-analysis)
+- [《社会主义制度下的经济计算》 Economic Calculation in the Socialist Commonwealth](https://mises.org/library/book/economic-calculation-socialist-commonwealth)
+- [《自由主义：古典传统》 Liberalism: In the Classical Tradition](https://mises.org/library/book/liberalism-classical-tradition)
+- [《货币与信用理论》 The Theory of Money and Credit](https://mises.org/library/book/theory-money-and-credit)
+- [《官僚制》 Bureaucracy](https://mises.org/library/book/bureaucracy)
+- [《理论与历史》 Theory and History: An Interpretation of Social and Economic Evolution](https://mises.org/library/book/theory-and-history-interpretation-social-and-economic-evolution)
+- [《反资本主义心态》 The Anti-Capitalistic Mentality](https://mises.org/library/book/anti-capitalistic-mentality)
+
+如果你还想再补第二梯队，可以继续加：
+
+- [《干预主义批判》 A Critique of Interventionism](https://mises.org/library/book/critique-interventionism)
+- [《全能政府》 Omnipotent Government: The Rise of the Total State and Total War](https://mises.org/library/book/omnipotent-government-rise-total-state-and-total-war)
 
 ## 效果
 
@@ -68,6 +103,23 @@
 但即便承认这一点，米塞斯仍会追问，解决办法究竟是压制价格，还是放松供给约束并减少扭曲。
 
 如果要进一步判断某个城市的现实效果，还必须核验当地住房供给弹性、土地管制和租赁法制细节。
+```
+
+## 快速开始
+
+如果你只想先试一下效果，最短路径是：
+
+```bash
+npx skills add https://github.com/LijiayuDeng/mises-perspective
+```
+
+装好后，直接丢这样的问题进去：
+
+```text
+用米塞斯视角分析租金管制。
+分析一项补贴本土芯片制造的产业政策。
+解释为什么米塞斯认为私有产权对经济计算至关重要。
+比较米塞斯与凯恩斯对衰退政策的分歧。
 ```
 
 ## 安装
@@ -99,7 +151,7 @@ mises-perspective/
 ├── SKILL.md
 ├── README.md
 ├── assets/
-│   └── banner.svg
+│   ├── banner.svg
 │   └── mises-portrait.jpg
 ├── agents/
 │   └── openai.yaml
@@ -219,7 +271,7 @@ mises-perspective/
 ├── README.md
 ├── LICENSE
 ├── assets/
-│   └── banner.svg
+│   ├── banner.svg
 │   └── mises-portrait.jpg
 ├── agents/
 │   └── openai.yaml
