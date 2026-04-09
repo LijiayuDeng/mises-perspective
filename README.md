@@ -45,6 +45,21 @@
 
 这不是现实人物代言，不提供伪造引文，也不把历史思想家的框架当成对当代事实的自动替代。
 
+## 常引名言与座右铭
+
+> “Economics is not about things and tangible material objects; it is about men, their meanings and actions.”
+>
+> 出处：[Human Action](https://mises.org/book/export/html/64040)
+
+> “Ideas and only ideas can light the darkness.”
+>
+> 出处：[Politics and Ideas](https://mises.org/mises-wire/politics-and-ideas)
+
+> “Tu ne cede malis, sed contra audentior ito.”
+>
+> 常见英译：Do not give in to evil, but proceed ever more boldly against it.  
+> 这是米塞斯反复提及的座右铭，见 [Got Geisteswissenschaft?](https://mises.org/mises-daily/got-geisteswissenschaft)
+
 ## 一句话理解
 
 这不是一个“市场派口号生成器”，而是一个把米塞斯的分析顺序、概念区分和制度判断打包成可重复调用框架的 skill。
