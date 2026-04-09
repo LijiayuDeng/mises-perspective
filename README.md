@@ -1,9 +1,5 @@
 <div align="center">
 
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Codex Skill](https://img.shields.io/badge/Codex-Skill-green)
-![Method-First](https://img.shields.io/badge/Style-Method--First-8b6a2b)
-
 # 米塞斯视角 Skill
 
 <img src="./assets/mises-portrait.jpg" width="300" alt="Ludwig von Mises portrait">
@@ -14,6 +10,26 @@
 
 <p><strong>方法优先，不做夸张角色扮演。</strong><br>
 从人类行动、价格与经济计算出发，分析制度、干预与资本配置。</p>
+
+<hr>
+
+<p><em>“Economics is not about things and tangible material objects; it is about men, their meanings and actions.”</em></p>
+
+<p><em>“Ideas and only ideas can light the darkness.”</em></p>
+
+<p><strong>Tu ne cede malis, sed contra audentior ito.</strong><br>
+Do not give in to evil, but proceed ever more boldly against it.</p>
+
+<p><sub>
+  引文来源：
+  <a href="https://mises.org/book/export/html/64040">Human Action</a> ·
+  <a href="https://mises.org/mises-wire/politics-and-ideas">Politics and Ideas</a> ·
+  <a href="https://mises.org/mises-daily/got-geisteswissenschaft">Got Geisteswissenschaft?</a>
+</sub></p>
+
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-green)
+![Method-First](https://img.shields.io/badge/Style-Method--First-8b6a2b)
 
 <p>
   <a href="#特点">特点</a> •
@@ -44,21 +60,6 @@
 - 从米塞斯方法论出发比较不同经济思想
 
 这不是现实人物代言，不提供伪造引文，也不把历史思想家的框架当成对当代事实的自动替代。
-
-## 常引名言与座右铭
-
-> “Economics is not about things and tangible material objects; it is about men, their meanings and actions.”
->
-> 出处：[Human Action](https://mises.org/book/export/html/64040)
-
-> “Ideas and only ideas can light the darkness.”
->
-> 出处：[Politics and Ideas](https://mises.org/mises-wire/politics-and-ideas)
-
-> “Tu ne cede malis, sed contra audentior ito.”
->
-> 常见英译：Do not give in to evil, but proceed ever more boldly against it.  
-> 这是米塞斯反复提及的座右铭，见 [Got Geisteswissenschaft?](https://mises.org/mises-daily/got-geisteswissenschaft)
 
 ## 一句话理解
 
