@@ -1,0 +1,42 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="84" y1="74" x2="1184" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6E5B8"/>
+      <stop offset="0.55" stop-color="#DFC98E"/>
+      <stop offset="1" stop-color="#B58A3A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="166" y1="126" x2="1086" y2="538" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#162028"/>
+      <stop offset="1" stop-color="#0C1319"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" rx="28" fill="#F2E7CF"/>
+  <rect x="28" y="28" width="1224" height="584" rx="24" fill="url(#bg)"/>
+  <path d="M0 500C165 420 295 405 486 438C702 476 826 577 1280 442V640H0V500Z" fill="#8B6A2B" fill-opacity="0.15"/>
+  <rect x="110" y="98" width="1060" height="444" rx="22" fill="url(#panel)"/>
+  <rect x="142" y="132" width="260" height="38" rx="19" fill="#C79C48"/>
+  <text x="272" y="157" text-anchor="middle" fill="#10161C" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700">METHOD, NOT MASCOT</text>
+  <text x="142" y="270" fill="#F7F2E6" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="700">米塞斯视角</text>
+  <text x="144" y="328" fill="#D6C7A5" font-family="Georgia, 'Times New Roman', serif" font-size="28">Mises Perspective Skill</text>
+  <text x="144" y="402" fill="#E9DFC8" font-family="Georgia, 'Times New Roman', serif" font-size="30">从人类行动、价格与经济计算出发，</text>
+  <text x="144" y="448" fill="#E9DFC8" font-family="Georgia, 'Times New Roman', serif" font-size="30">分析制度、干预与资本配置。</text>
+
+  <line x1="840" y1="170" x2="1084" y2="170" stroke="#C79C48" stroke-width="2"/>
+  <line x1="840" y1="244" x2="1084" y2="244" stroke="#C79C48" stroke-width="2"/>
+  <line x1="840" y1="318" x2="1084" y2="318" stroke="#C79C48" stroke-width="2"/>
+  <line x1="840" y1="392" x2="1084" y2="392" stroke="#C79C48" stroke-width="2"/>
+
+  <text x="842" y="156" fill="#F7F2E6" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700">METHOD</text>
+  <text x="842" y="230" fill="#F7F2E6" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700">PRICES</text>
+  <text x="842" y="304" fill="#F7F2E6" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700">CALCULATION</text>
+  <text x="842" y="378" fill="#F7F2E6" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700">INSTITUTIONS</text>
+
+  <text x="842" y="197" fill="#D6C7A5" font-family="Georgia, 'Times New Roman', serif" font-size="18">从行动中的个人解释社会结果</text>
+  <text x="842" y="271" fill="#D6C7A5" font-family="Georgia, 'Times New Roman', serif" font-size="18">把价格视为协调与筛选机制</text>
+  <text x="842" y="345" fill="#D6C7A5" font-family="Georgia, 'Times New Roman', serif" font-size="18">追问产权与交换如何支撑资本评价</text>
+  <text x="842" y="419" fill="#D6C7A5" font-family="Georgia, 'Times New Roman', serif" font-size="18">区分利润管理、官僚管理与干预逻辑</text>
+
+  <rect x="840" y="468" width="244" height="42" rx="21" fill="#E9DFC8"/>
+  <text x="962" y="494" text-anchor="middle" fill="#0F171D" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700">OPEN-SOURCE SKILL</text>
+</svg>

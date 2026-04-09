@@ -1,4 +1,10 @@
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-green)
+![Method-First](https://img.shields.io/badge/Style-Method--First-8b6a2b)
+
 # 米塞斯视角 Skill
+
+![米塞斯视角 Skill Banner](./assets/banner.svg)
 
 一个以路德维希·冯·米塞斯的方法论为核心的中文分析型 skill。
 
@@ -19,6 +25,23 @@
 - 从米塞斯方法论出发比较不同经济思想
 
 这不是现实人物代言，不提供伪造引文，也不把历史思想家的框架当成对当代事实的自动替代。
+
+## 为什么做这个 Skill
+
+很多“思想家视角”类 prompt 最后都会滑向两种退化：
+
+- 只剩立场标签，比如“市场好，政府坏”
+- 只剩角色扮演气味，却没有可复用的方法论
+
+这个 skill 试图解决的是另一件事：把米塞斯的分析顺序、概念区分和制度判断抽成一个可重复调用的中文框架。
+
+## 特点
+
+- 方法优先，不做夸张角色扮演
+- 先分理论、制度和事实，再下判断
+- 强调价格、利润亏损、企业家发现和经济计算
+- 能分析政策，也能分析方法论分歧
+- 自带回归测试题，方便检查输出是否退化
 
 ## 效果
 
@@ -61,15 +84,20 @@ git clone https://github.com/LijiayuDeng/mises-perspective.git ~/.codex/skills/m
 git clone https://github.com/LijiayuDeng/mises-perspective.git ~/.claude/skills/mises-perspective
 ```
 
+如果你只是想在当前环境里直接使用，也可以把整个目录放进本地 skills 路径，然后刷新客户端。
+
 目录至少应包含：
 
 ```text
 mises-perspective/
 ├── SKILL.md
 ├── README.md
+├── assets/
+│   └── banner.svg
 ├── agents/
 │   └── openai.yaml
 └── references/
+    ├── few-shot-examples.md
     ├── persona-profile.md
     ├── source-map.md
     └── eval-prompts.md
@@ -95,9 +123,17 @@ mises-perspective/
 比较米塞斯与凯恩斯对衰退政策的分歧。
 ```
 
-## 这个 Skill 在做什么
+## 工作方式
 
-它主要蒸馏了 5 件事：
+这个 skill 默认按下面的顺序工作：
+
+1. 识别问题属于政策分析、制度比较、货币问题、社会主义计算还是方法论争议。
+2. 从 [persona-profile.md](./references/persona-profile.md) 读取核心立场、推理顺序和边界。
+3. 用 [source-map.md](./references/source-map.md) 把问题路由到更接近的著作语境。
+4. 必要时参考 [few-shot-examples.md](./references/few-shot-examples.md)，保持输出结构稳定。
+5. 用 [eval-prompts.md](./references/eval-prompts.md) 检查它有没有退化成空泛口号。
+
+它主要蒸馏了 5 个模块：
 
 | 模块 | 作用 |
 | --- | --- |
@@ -111,7 +147,36 @@ mises-perspective/
 
 - `persona-profile.md`：核心立场、推理顺序、风格和边界
 - `source-map.md`：按主题映射到相关著作
+- `few-shot-examples.md`：示例输出，用来稳住结构和力度
 - `eval-prompts.md`：回归测试，防止输出退化成空泛口号
+
+## 输出骨架
+
+一个比较理想的回答通常会包含这几步：
+
+1. 用一句话定义问题到底是什么。
+2. 说明相关行动者、约束和制度背景。
+3. 解释价格、激励、知识利用、利润亏损或经济计算会如何变化。
+4. 给出米塞斯式诊断。
+5. 补一个严肃的反对意见或替代视角。
+6. 标明哪些判断需要最新政策文本、法律或数据核验。
+
+## 适用范围
+
+特别适合：
+
+- 租金管制、关税、补贴、产业政策
+- 货币、信贷扩张、通胀和银行制度
+- 社会主义、国有化和 AI 计划经济争论
+- 官僚制、大学治理、公共管理
+- 米塞斯与凯恩斯、哈耶克等思想比较
+
+不适合：
+
+- 要求逐字引文、页码考据但没有原文材料的请求
+- 纯事实查证型问题
+- 法律、医疗、个人危机等高风险建议场景
+- 把思想史框架硬套到无关领域的请求
 
 ## 边界
 
@@ -130,6 +195,15 @@ mises-perspective/
 - 把分析扩展到没有材料支撑的私人传记或心理揣测
 - 在法律、医疗、个人危机等高风险情境下继续硬套角色框架
 
+## 开发与测试
+
+如果你在继续迭代这个 skill，最值得反复检查的是两件事：
+
+- 回答是不是在解释机制，而不只是表态
+- 回答有没有把理论分析和现实事实核验混在一起
+
+建议定期用 [eval-prompts.md](./references/eval-prompts.md) 里的问题做回归测试。
+
 ## 文件结构
 
 ```text
@@ -137,10 +211,13 @@ mises-perspective/
 ├── SKILL.md
 ├── README.md
 ├── LICENSE
+├── assets/
+│   └── banner.svg
 ├── agents/
 │   └── openai.yaml
 └── references/
     ├── eval-prompts.md
+    ├── few-shot-examples.md
     ├── persona-profile.md
     └── source-map.md
 ```
