@@ -33,10 +33,13 @@ Do not give in to evil, but proceed ever more boldly against it.</p>
 
 <p>
   <a href="#特点">特点</a> •
+  <a href="#代表作">代表作</a> •
+  <a href="#效果">效果</a> •
   <a href="#快速开始">快速开始</a> •
   <a href="#安装">安装</a> •
   <a href="#工作方式">工作方式</a> •
-  <a href="#适用范围">适用范围</a>
+  <a href="#适用范围">适用范围</a> •
+  <a href="#边界">边界</a>
 </p>
 
 </div>
@@ -51,7 +54,7 @@ Do not give in to evil, but proceed ever more boldly against it.</p>
 - 分析干预主义如何改变激励、知识利用和资本配置
 - 在给出米塞斯式判断时，同时指出替代视角和事实核验边界
 
-适合这些问题：
+你可以用它来处理这类问题：
 
 - 用米塞斯视角分析某项政策或制度
 - 解释米塞斯如何看待社会主义、价格管制、补贴或产业政策
@@ -84,7 +87,9 @@ Do not give in to evil, but proceed ever more boldly against it.</p>
 
 ## 代表作
 
-如果你想把这个 skill 背后的原著脉络补全，最值得先读的是下面这些书。这里优先放的是可公开引用的官方/公开页面，方便直接继续找 PDF、EPUB 或 HTML 版本。
+如果你想把这个 skill 背后的原著脉络补全，最值得先读的是下面这些书。这里优先放的是可公开引用的官方/公开页面，方便继续找 PDF、EPUB 或 HTML 版本。
+
+核心 8 本：
 
 - [《人的行动》 Human Action](https://mises.org/library/book/human-action)
 - [《社会主义：一种经济学与社会学的分析》 Socialism: An Economic and Sociological Analysis](https://mises.org/library/book/socialism-economic-and-sociological-analysis)
@@ -95,12 +100,14 @@ Do not give in to evil, but proceed ever more boldly against it.</p>
 - [《理论与历史》 Theory and History: An Interpretation of Social and Economic Evolution](https://mises.org/library/book/theory-and-history-interpretation-social-and-economic-evolution)
 - [《反资本主义心态》 The Anti-Capitalistic Mentality](https://mises.org/library/book/anti-capitalistic-mentality)
 
-如果你还想再补第二梯队，可以继续加：
+扩展阅读：
 
 - [《干预主义批判》 A Critique of Interventionism](https://mises.org/library/book/critique-interventionism)
 - [《全能政府》 Omnipotent Government: The Rise of the Total State and Total War](https://mises.org/library/book/omnipotent-government-rise-total-state-and-total-war)
 
 ## 效果
+
+示例 1：租金管制
 
 ```text
 用户：用米塞斯视角分析租金管制。
@@ -121,44 +128,87 @@ Do not give in to evil, but proceed ever more boldly against it.</p>
 如果要进一步判断某个城市的现实效果，还必须核验当地住房供给弹性、土地管制和租赁法制细节。
 ```
 
+示例 2：社会主义经济计算问题
+
+```text
+用户：用米塞斯视角谈谈社会主义经济计算问题。
+
+米塞斯视角：
+这个问题的核心，不是计划者是否聪明，也不是计算机算得够不够快，
+而是如果生产资料不通过市场交换形成货币价格，那么不同资本用途之间
+究竟靠什么比较。
+
+在米塞斯看来，经济计算不是单纯的技术计算，而是制度问题。
+只有在私有产权、交换和货币价格存在的条件下，企业家才可能把钢铁、
+土地、机器、劳动力这些异质资源放进同一个可比较的评价框架里。
+
+一旦生产资料被统一收归计划机构，计划者当然可以掌握很多工程数据、
+库存数据和人口数据，但他仍然缺少一个关键东西：由真实市场交换形成的
+资本品价格。
+
+没有这些价格，就很难判断一条铁路、一个工厂、一种生产流程，
+究竟是在节约稀缺资源，还是在浪费稀缺资源。计划可以有目标，
+但没有价格就缺少比较目标机会成本的尺度。
+
+所以米塞斯式诊断不是“社会主义的人一定无能”，而是说，
+社会主义制度拿掉了经济计算赖以成立的制度前提。
+
+一个严肃的反对意见是，今天的大数据、AI 和实时调度系统
+或许能部分替代市场。米塞斯会回应：数据可以帮助执行命令，
+但数据本身不是交换价格；技术可以提高计划效率，却不能自动生成
+资本配置所需的经济计算。
+
+如果要继续讨论现实中的混合经济、国企或平台企业，
+还必须进一步区分“企业内部的计划”与“整个社会范围的资本计算”
+是不是同一个问题。
+```
+
 ## 快速开始
 
 如果你只想先试一下效果，最短路径是：
 
-```bash
-npx skills add https://github.com/LijiayuDeng/mises-perspective
-```
+1. 在 Codex 里安装这个 skill：
 
-装好后，直接丢这样的问题进去：
+   ```bash
+   npx skills add https://github.com/LijiayuDeng/mises-perspective
+   ```
 
-```text
-用米塞斯视角分析租金管制。
-分析一项补贴本土芯片制造的产业政策。
-解释为什么米塞斯认为私有产权对经济计算至关重要。
-比较米塞斯与凯恩斯对衰退政策的分歧。
-```
+2. 装好后，直接丢这样的问题进去：
+
+   ```text
+   用米塞斯视角分析租金管制。
+   分析一项补贴本土芯片制造的产业政策。
+   解释为什么米塞斯认为私有产权对经济计算至关重要。
+   比较米塞斯与凯恩斯对衰退政策的分歧。
+   ```
 
 ## 安装
 
-如果你的客户端支持从 GitHub 安装 skill，可以直接使用仓库地址：
+### Codex
+
+如果当前环境支持从 GitHub 安装 skill，可以直接使用仓库地址：
 
 ```bash
 npx skills add https://github.com/LijiayuDeng/mises-perspective
 ```
 
-如果你的环境不支持这条命令，也可以直接克隆到本地 skill 目录：
+如果当前环境不支持这条命令，也可以直接克隆到本地 skill 目录：
 
 ```bash
 git clone https://github.com/LijiayuDeng/mises-perspective.git ~/.codex/skills/mises-perspective
 ```
 
-或：
+### Claude Code
+
+如果你在 Claude Code 中使用：
 
 ```bash
 git clone https://github.com/LijiayuDeng/mises-perspective.git ~/.claude/skills/mises-perspective
 ```
 
-如果你只是想在当前环境里直接使用，也可以把整个目录放进本地 skills 路径，然后刷新客户端。
+### 手动安装
+
+如果你只是想手动安装，也可以把整个目录放进对应的本地 skills 路径，然后刷新客户端。
 
 目录至少应包含：
 
@@ -208,7 +258,7 @@ mises-perspective/
 4. 必要时参考 [few-shot-examples.md](./references/few-shot-examples.md)，保持输出结构稳定。
 5. 用 [eval-prompts.md](./references/eval-prompts.md) 检查它有没有退化成空泛口号。
 
-它主要蒸馏了 5 个模块：
+核心模块：
 
 | 模块 | 作用 |
 | --- | --- |
