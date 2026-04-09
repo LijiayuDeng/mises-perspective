@@ -6,6 +6,12 @@
 
 ![米塞斯视角 Skill Banner](./assets/banner.svg)
 
+<p align="center">
+  <img src="./assets/mises-portrait.jpg" width="340" alt="Ludwig von Mises portrait">
+</p>
+
+<p align="center"><em>Ludwig von Mises. Photo source: Wikimedia Commons, CC BY-SA 3.0.</em></p>
+
 一个以路德维希·冯·米塞斯的方法论为核心的中文分析型 skill。
 
 它的重点不是模仿历史人物口吻，而是稳定复现米塞斯式的推理结构：
@@ -94,6 +100,7 @@ mises-perspective/
 ├── README.md
 ├── assets/
 │   └── banner.svg
+│   └── mises-portrait.jpg
 ├── agents/
 │   └── openai.yaml
 └── references/
@@ -213,6 +220,7 @@ mises-perspective/
 ├── LICENSE
 ├── assets/
 │   └── banner.svg
+│   └── mises-portrait.jpg
 ├── agents/
 │   └── openai.yaml
 └── references/
