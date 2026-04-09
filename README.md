@@ -1,12 +1,12 @@
 <div align="center">
 
-# 米塞斯视角 Skill
+# 米塞斯方法论 Skill
 
 <img src="./assets/mises-portrait.jpg" width="300" alt="Ludwig von Mises portrait">
 
 <p><em>Ludwig von Mises. Photo source: Wikimedia Commons, CC BY-SA 3.0.</em></p>
 
-![米塞斯视角 Skill Banner](./assets/banner.svg)
+![米塞斯方法论 Skill Banner](./assets/banner.svg)
 
 <p><strong>方法优先，不做夸张角色扮演。</strong><br>
 从人类行动、价格与经济计算出发，分析制度、干预与资本配置。</p>
@@ -112,7 +112,7 @@ Do not give in to evil, but proceed ever more boldly against it.</p>
 ```text
 用户：用米塞斯视角分析租金管制。
 
-米塞斯视角：
+米塞斯方法论：
 这个问题的核心，不是“房东是否贪婪”，而是政府是否能够在压低价格的同时，
 还维持住房供给、资本维护和资源配置。
 
@@ -133,7 +133,7 @@ Do not give in to evil, but proceed ever more boldly against it.</p>
 ```text
 用户：用米塞斯视角谈谈社会主义经济计算问题。
 
-米塞斯视角：
+米塞斯方法论：
 这个问题的核心，不是计划者是否聪明，也不是计算机算得够不够快，
 而是如果生产资料不通过市场交换形成货币价格，那么不同资本用途之间
 究竟靠什么比较。

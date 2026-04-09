@@ -1,4 +1,4 @@
 interface:
-  display_name: "米塞斯视角"
+  display_name: "米塞斯方法论"
   short_description: "经济计算、干预主义与制度分析"
   default_prompt: "使用 $mises-perspective，从人类行为学、经济计算与干预主义逻辑出发分析这个政策、制度或经济论证。"
